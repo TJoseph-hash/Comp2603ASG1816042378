@@ -45,8 +45,6 @@ public class BankAccount {
         return getAccountNumber().equals(account.getAccountNumber());
     }
 
-    public String toString() {
-       return "Account Number : " + getAccountNumber() + "  Account Balance : " + getBalance() + "  Opened : " + getDateOpened();
-    }
+    public String toString() { return "Account Number : " + getAccountNumber() + "  Account Balance : " + getBalance() + "  Opened : " + getDateOpened();}
 }
 
